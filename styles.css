@@ -1,0 +1,366 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0f0f0f;
+}
+
+header img {
+    width: 100px; /* Logo size */
+}
+
+header nav a {
+    color: #ff0000; /* Red navigation text */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #f0f0f0; /* White on hover */
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+    background-color: #1f1f1f; /* Dark grey background for content */
+}
+
+.name-reason {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #333; /* Dark grey background for the section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.name-reason h1 {
+    font-size: 2.8rem;
+    color: #ff0000; /* Red heading */
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Cinzel', serif; /* Cinzel for headings */
+    font-weight: 700;
+}
+
+.name-reason p {
+    font-size: 1.2rem;
+    color: #ccc; /* Light grey text */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.name-meaning {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.meaning-text, .meaning-image {
+    font-size: 2.5rem;
+    color: #ff0000; /* Red heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.meaning-text h2 {
+    font-size: 2rem;
+    color: #ff0000;
+    margin-bottom: 15px;
+    font-family: 'Cinzel', serif; /* Cinzel for subheadings */
+    font-weight: 700;
+}
+
+.meaning-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Design Philosophy Section */
+.design-philosophy {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.design-philosophy h2 {
+    font-size: 2rem;
+    color: #ff0000;
+    margin-bottom: 15px;
+    font-family: 'Cinzel', serif; /* Cinzel for subheadings */
+    font-weight: 700;
+}
+
+.design-philosophy p {
+    font-size: 1.2rem;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #0f0f0f;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    color: #ff0000;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #f0f0f0;
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0f0f0f;
+}
+
+header img {
+    width: 100px; /* Logo size */
+}
+
+header nav a {
+    color: #ff0000; /* Red navigation text */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #f0f0f0; /* White on hover */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('dragon-bg.jpg') no-repeat center center/cover; /* Replace with your background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-family: 'Cinzel', serif;
+    color: #ff0000; /* Red text */
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.hero .cta-btn {
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero .cta-btn:hover {
+    background-color: #d90000;
+    transform: scale(1.1);
+}
+
+/* Artists Section */
+.artists {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.artists h2 {
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #ff0000;
+}
+
+.artist-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.artist-card {
+    background-color: #151515;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.artist-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff0000;
+}
+
+.artist-card h3 {
+    margin-top: 10px;
+    color: #ff0000;
+}
+
+.artist-card:hover {
+    transform: scale(1.05);
+    background-color: #0d0d0d;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 4rem;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #ff0000;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border: 3px solid transparent;
+    transition: border 0.3s, transform 0.3s;
+}
+
+.gallery-grid img:hover {
+    border: 3px solid #ff0000;
+    transform: scale(1.05);
+}
+
+/* Customer Reviews Section */
+.reviews {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 4rem;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #ff0000;
+}
+
+.review-card {
+    background-color: #151515;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.);
+}
+
+.review-card p {
+    font-size: 1rem;
+    color: #ccc; /* Light grey text */
+}
+
+.review-card h3 {
+    margin-top: 10px;
+    color: #ff0000;
+}
+
+.video-review {
+    margin-top: 30px;
+}
+
+.video-review iframe {
+    width: 100%;
+    height: 315px; /* Adjust height as needed */
+    border: none;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0f0f0f;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer .social-icons a {
+    color: #ff0000;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+footer .social-icons a:hover {
+    color: #f0f0f0;
+}
